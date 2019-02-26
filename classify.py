@@ -1,5 +1,5 @@
 # USAGE
-# python classify.py --model pokedex.model --labelbin lb.pickle --image examples/charmander_counter.png
+# python classify.py --model appleprod.model --labelbin lb.pickle --image examples/50.jpg
 
 # import the necessary packages
 from keras.preprocessing.image import img_to_array
@@ -46,9 +46,9 @@ label = lb.classes_[idx]
 # we'll mark our prediction as "correct" of the input image filename
 # contains the predicted label text (obviously this makes the
 # assumption that you have named your testing image files this way)
-filename = args["image"][args["image"].rfind(os.path.sep) + 1:]
-correct = "correct" if filename.rfind(label) != -1 else "incorrect"
-
+#filename = args["image"][args["image"].rfind(os.path.sep) + 1:]
+#correct = "correct" if filename.rfind(label) != -1 else "incorrect"
+correct=""
 # build the label and draw the label on the image
 label = "{}: {:.2f}% ({})".format(label, proba[idx] * 100, correct)
 output = imutils.resize(output, width=400)
