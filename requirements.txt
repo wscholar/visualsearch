@@ -3,6 +3,7 @@ astor==0.7.1
 certifi==2018.11.29
 chardet==3.0.4
 cloudpickle==0.8.0
+coremltools==2.1.0
 cycler==0.10.0
 dask==1.1.1
 decorator==4.3.2
