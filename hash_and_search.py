@@ -25,9 +25,9 @@ def dhash(image, hashSize=8):
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
 ap.add_argument("-a", "--rawdataset", required=True,
-	help="dataset of images to search through (i.e., the haytack)")
+	help="dataset of images to search through (i.e., the raw downloaded images)")
 ap.add_argument("-n", "--cleandataset", required=True,
-	help="set of images we are searching for (i.e., cleandataset)")
+	help="set of images we are searching for (i.e., images already in dataset)")
 args = vars(ap.parse_args())
 
 rawpathBase = args["rawdataset"]

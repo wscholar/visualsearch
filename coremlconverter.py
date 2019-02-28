@@ -1,5 +1,5 @@
 # USAGE
-# python coremlconverter.py --model pokedex.model --labelbin lb.pickle
+# python coremlconverter.py --model vsearch.model --labelbin lb.pickle
 
 # import necessary packages
 from keras.models import load_model

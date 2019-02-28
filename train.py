@@ -1,5 +1,5 @@
 # USAGE
-# python train.py --dataset dataset --model pokedex.model --labelbin lb.pickle
+# python train.py --dataset dataset --model vsearch.model --labelbin lb.pickle
 
 # set the matplotlib backend so figures can be saved in the background
 import matplotlib
@@ -11,7 +11,7 @@ from keras.optimizers import Adam
 from keras.preprocessing.image import img_to_array
 from sklearn.preprocessing import LabelBinarizer
 from sklearn.model_selection import train_test_split
-from pyimagesearch.smallervggnet import SmallerVGGNet
+from smvggnet.smallervggnet import SmallerVGGNet
 import matplotlib.pyplot as plt
 from imutils import paths
 import numpy as np

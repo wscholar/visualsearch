@@ -1,5 +1,5 @@
 # USAGE
-# python classify.py --model appleprod.model --labelbin lb.pickle --image examples/50.jpg
+# python classify.py --model vsearch.model --labelbin lb.pickle --image examples/50.jpg
 
 # import the necessary packages
 from keras.preprocessing.image import img_to_array
